@@ -2,7 +2,6 @@
 
 html {
   background-color: #f1f5f9;
-  font-family: "Cairo", monospace;
 }
 
 body {
@@ -15,6 +14,12 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: "Cairo", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #202829;
 }
 
 h1 {
@@ -33,14 +38,14 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #202829;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: teal;
   display: none;
   margin: 0;
 }
@@ -53,10 +58,14 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: teal;
 }
 
-.nav-links a:hover, a:focus {
-  background-color: #ff9776;
+.nav-links a:hover,
+a:focus {
+
+  background-color: #202829;
+  color: #f1f5f9;
 }
 
 .expanded {
